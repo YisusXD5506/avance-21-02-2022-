@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Carreras de autos</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <!-- Firebase SDK CODE ADD BELOW -->
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+  <script>
+      var firebaseConfig = {
+  apiKey: "AIzaSyDfmfHb0sX_yWxQxQsTqnI3jMI9VqNZC8g",
+  authDomain: "proyecto-jesus-jeruel.firebaseapp.com",
+  databaseURL: "https://proyecto-jesus-jeruel-default-rtdb.firebaseio.com",
+  projectId: "proyecto-jesus-jeruel",
+  storageBucket: "proyecto-jesus-jeruel.appspot.com",
+  messagingSenderId: "439243100345",
+  appId: "1:439243100345:web:2211b90efe683802dd0b68"
+};
+firebase.initializeApp(firebaseConfig);
+      
+</script>
+   
+  </head>
+  <body>
+    
+    <script src="./sketch.js"></script>
+  </body>
+</html>
